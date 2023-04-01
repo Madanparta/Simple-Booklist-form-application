@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./book.css">
+    <title>Book list form</title>
+</head>
+<body>
+    <section class="container">
+        <h1 class="main-tital">add book</h1>
+        
+        <section class="main-body">
+            <form id="book-form" action="#">
+                
+                <!-- titla lable -->
+                <div class="tital-container form-container">
+                    <label for="title-id">Title</label>
+                    <input type="text" id="title-id" >
+                </div>
+
+                <!-- author lable -->
+                <div class="author-container form-container">
+                    <label for="author-id">Author</label>
+                    <input type="text" id="author-id" >
+                </div>
+
+                <!-- ISBN lable -->
+                <div class="IDBN-container form-container">
+                    <label for="author-id">IDBN</label>
+                    <input type="text" id="IDBN-id" >
+                </div>
+
+                <!-- submit -->
+                <div class="button-container form">
+                    <input type="submit" class="btn" value="submit">
+                </div>
+
+            </form>
+        </section>
+
+        <!--   table forming sectilon -->
+
+        <section class="table-container">
+            <table>
+                <thead>
+                    <tr class="table-head table-cells">
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>IDBN</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- table-body -->
+                </tbody>
+            </table>
+        </section>
+    </section>
+
+    <!-- js link -->
+    <script src="./book.js"></script>
+</body>
+</html>
